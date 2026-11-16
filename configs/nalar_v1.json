@@ -1,0 +1,15 @@
+{
+  "control_radius_m": 2.5,
+  "control_margin_m": 1.0,
+  "control_observations": 10,
+  "control_window_frames": 25,
+  "control_agreement": 0.8,
+  "interpolation_frames": 5,
+  "tag_confirmation_frames": 50,
+  "exit_margin_m": 1.0,
+  "exit_confirmation_frames": 10,
+  "stationary_frames": 50,
+  "stationary_span_m": 0.75,
+  "restart_speed_mps": 2.0,
+  "restart_motion_frames": 5
+}

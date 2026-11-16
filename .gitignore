@@ -63,3 +63,9 @@ venv/
 env/
 .DS_Store
 *.pyc
+
+# NALAR local submissions, provenance, and reproduction environments.
+/artifacts/
+/NALAR.csv
+/NALAR.md
+/.venv-*/

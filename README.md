@@ -1,3 +1,22 @@
+# NALAR
+
+NALAR generates frame-by-frame ball possession labels for the More than a Hack
+2027 challenge. It runs locally on the supplied tactical tracking and Smart
+Tagging data and produces a `frame,label` CSV.
+
+- [Reproduce the submission](REPRODUCTION.md) with Python 3.12.4 and the
+  separately supplied competition dataset.
+- [Technical report](TECHNICAL_REPORT.md) describes the possession rules,
+  verification and limitations.
+- [Competition rules](RULES.md) and [submission instructions](SUBMISSION.md)
+  describe the organizer requirements.
+
+The repository includes the official starter code, public ground truth and
+baselines. Keep restricted match data and generated outputs local.
+
+<details>
+<summary>Original organizer README</summary>
+
 # More than a Hack 2027 — Phase 1: Ball Possession
 
 **Organised by [Metrica Sports](https://metrica-sports.com), [FC Barcelona](https://www.fcbarcelona.com)
@@ -192,3 +211,5 @@ competition only, under the terms you accept at enrolment.
   url    = {https://github.com/metrica-sports/more-than-a-hack-2027}
 }
 ```
+
+</details>
